@@ -1,0 +1,49 @@
+
+body{
+
+    overflow-x:hidden;
+    
+}
+.bg-img{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: center center;
+    
+}
+.btn.btn-style{
+
+    background: orangered;
+    border: 1px solid orangered;
+    border-radius:40px;
+    color:white;
+}
+
+.btn.btn-style:hover{
+    color:orangered;
+    background-color: white;
+  
+
+}
+.icon-orangered{
+    color: orangered;
+}
+.btn-group button {
+
+    color: white; /* White text */
+    font-size:100%;
+    display: table;
+    width: 50 ;
+    margin-right: -30px;
+    padding: 10px;
+    box-sizing:border-box ;
+    border-right: none;
+    
+  
+  }
+  .text{
+      margin: 50;
+    padding: 30px;}
+
+
+
