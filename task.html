@@ -4,128 +4,69 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    .btn-group button {
-
-  color: white; /* White text */
-  font-size:100%;
-  display: table;
-  width: 50 ;
-  margin-right: -30px;
-  padding: 10px;
-  box-sizing:border-box ;
-  border-right: none;
   
-
-}
-.img {
-  border-radius: 50%;
-  position: -ms-page;
-  margin-top: -700px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  padding: 300px;
-  margin-left: -50px;
-padding-left: 250px ;
-}
-
-.text{
-  position: -ms-page;
-  margin-top: -200px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  padding: 300px;
-  margin-left: -50px;
-padding-left: 250px ;}
-
-  .image{
-  
-  top: 95px;
-  right: 40;
-  width: 20;
-  height: 100px;
-  padding: 10px;
-  margin-left: 700px;
-  margin-top: -190px;
-  border-color: black;
-}
-.list{
-  display: flex;
-        align-items: center;
-        justify-content: center
-
-}
-
-.p{
-  display: grid ;
-  text-align: left;
-  max-width: -20px;
-  font-size: 15px;
-}
-.display1{
-  display: inline-block;
-  padding:0px;
-}
-.position_the_6_elements{
- padding-left: 60px;
-
-}
-</style>
 </head>
 <body>
-    <section  style="height: 600px;">
-
-    <div  style=" height: 100%; ">
-        <div style=" height: 100%;"  id="myCarousel" class="carousel slide" data-ride="carousel">
-           
+ <section style="height: 600px;">
+  <div class="h-100">
+        <div   id="myCarousel" class="carousel slide h-100" data-ride="carousel">
+            <div>
             <ol class="carousel-indicators ">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
             </ol>
+		      	</div>
             <!-- Wrapper for slides -->
-         <div class="carousel-inner " style="height: 100%; ">
             
-             <div class="item active " style="  background-size: cover;background-image:url('img/images.png') ;background-repeat: no-repeat; width: 100%; height: 100%;">
-                <div class="container" style=" position: relative; top:150px;">
-                    <div class="col-md-5 ">
-                       <h1  style="color:white; padding-right: 50px;">University, College School Education</h1>
-                       <p style="color:white" >A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        <p>
-                         <a href="#" class="btn btn-primary px-4 py-3 mt-3" style="border-radius: 4;">Contact Us</a>
-                        </p>
-                      </div>
-                 </div>
-             </div>
-  
-             <div class="item " style="  background-size: cover;background-image:url('img/images.png') ;background-repeat: no-repeat; width: 100%; height: 100%;">
-                <div class="container" style=" position: relative; top:150px;">
-                    <div class="col-md-5 ">
-                       <h1  style="color:white; padding-right: 50px;">University, College School Education</h1>
-                       <p style="color:white" >A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        <p>
-                         <a href="#" class="btn btn-primary px-4 py-3 mt-3" style="border-radius: 4;">Contact Us</a>
-                        </p>
-                      </div>
-                 </div>
+             <div class="carousel-inner h-100" >
+               <div class="item active bg-img  h-100  position-relative;"  style="background-image: url(img/images.png);">
                 
-               
-             </div>
-      
-         </div>
+                 <div class="container position-absolute " style="top:160px;left:40px;">
+                   <div class="col-md-5 ">
+                      <h1  class="text-light pr-5" >University, College School Education</h1>
+                      <p class="text-light" >A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                       <p>
+                        <a href="#" class="btn btn-primary px-4 py-3 mt-3 rounded-pill" >Contact Us</a>
+                       </p>
+                   </div>
+                </div>
+                </div>
+           <div class="item  h-100 bg-img position-relative;" style="background-image: url(img/images.png);">
+                 <div class="container position-absolute " style="top:160px;left:40px;">
+                   <div class="col-md-5 ">
+                      <h1  class="text-light pr-5" >University, College School Education</h1>
+                      <p class="text-light" >A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                       <p>
+                        <a href="#" class="btn btn-primary px-4 py-3 mt-3 rounded-pill" >Contact Us</a>
+                       </p>
+                   </div>
+                </div>
+                </div>
 
+         </div>
       </div>
-      
-    </div>
-</section>
+   </div>
+    </section>
+ 
 <section>
-  <div >    
-    <div class="row">
+  <div>    
+    <div class="row ">
         <div class="btn-group btn-group-toggle">
        <!-- first button --> 
-      <div class="col-sm-3 text-center" ;>
+      <div class="col-sm-3 text-center">
         
         <div class="btn-group" role="group"> <button type="button"  style="background-color:rgb(255, 94, 0)">
                    
@@ -169,248 +110,266 @@ padding-left: 250px ;}
     <h1 style="font-size:200%;" style="color:rgb(255, 255, 255);"    text="text-align:center;">Sport Clubs</h1>
     <p >Even the all-powerful pointing has no control about the blind texts it is an almost unorthographic.</p>  
 </button></div></div>
+</div>
+</section>
+
+<section style="height: 900px;" >
+  <div class="container-fluid d-flex justify-content-center h-100" >
+<div class="row w-100  h-100" style="margin-left: 110px;margin-right: 110px;">
+<div class="col-md-7" data-aos="fade-down-left">
+  <div class="h-25">
+    <h1 class="p-5 m-0" >What We Offer</h1>
+    <p class="text-muted fs-3">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
+  </div>
+    <div class="row h-75" >
+      <div class="col-6 mb-0" >
+        <div class="d-flex">
+          <div >
+              <img src="img/secure.png" alt="Sample Image">
+          </div>
+          <div >
+            <h2>Safety First</h2>
+            <p class="text-muted fs-3">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+      </div>
+      </div>
+      <div class="col-6  mb-0" >
+        <div class="d-flex">
+          <div>
+              <img src="img/reading.png" alt="Sample Image">
+          </div>
+          <div >
+            <h2>Regular Classes</h2>
+            <p class="text-muted fs-3">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+      </div>
+      </div>
+
+      <div class="col-6   mb-0" >
+        <div class="d-flex">
+          <div>
+              <img src="img/education.png" alt="Sample Image">
+          </div>
+          <div >
+            <h2>Certified Teachers</h2>
+            <p class="text-muted fs-3">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+      </div>
+      </div>
+      <div class="col-6   mb-0  ">
+        <div class="d-flex">
+          <div>
+              <img src="img/diploma.png" alt="Sample Image">
+          </div>
+          <div>
+            <h2>Sufficient Classrooms</h2>
+            <p class="text-muted fs-3">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+      </div>
+      </div>
+
+      <div class="col-6  mb-5">
+        <div class="d-flex">
+          <div>
+              <img src="img/jigsaw.png" alt="Sample Image">
+          </div>
+          <div>
+            <h2>Creative Lessons</h2>
+            <p class="text-muted fs-3">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+      </div>
+      </div>
+
+
+      <div class="col-6 mb-5">
+        <div class="d-flex " >
+          <div>
+              <img src="img/playing.png" alt="Sample Image"  >
+          </div>
+          <div >
+            <h2>Sports Facilities</h2>
+            <p class="text-muted fs-3">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+      </div>
+      </div>
+
+
+
+
+    </div>
 
 </div>
-<div class="container"> 
-  <div class="image";>
-  <img src="img/g1.jpg"
-  width="300" 
-   height="900" >
+
+
+<div class="col-md-5 ">
+  <div class="bg-img h-100 "  style="background-image: url('img/Capture4.PNG'); "></div>
+
+</div>
+</div>
   </div>
-  <div class="text";>
-      <h1 ><b>What we offer </b></h1>
-     
-      <p>On her way she met a copy . 
-          The copy warned thr little blind text , 
-          that where it comefrom it would have been 
-          rewritten a thousand times and everything 
-      that was left from its origin would be the word .</p>
-    </div> 
 
-
-      
-    <!--<div class="img"><img src="img/girl.png" width="40" height="40">
-      <h1 style ="font-size:150%;"    text="text-align:left;" >Safety First</h1>
-      <p >Far far away,behind the word mountains,far from the countries Vokalia.</p></div>
-    -->
-    
-   
-<div class="position_the_6_elements;">
-    <div class="container ">
-      <div class="row">
-        <div class=" col-md-2"> 
-           <!-- 1 --> 
-          <div class="display1">
-           
-             
-               
-               <img src="img/girl.png" width="50" height="50" algin="left" style="float: left; margin-right: 10px;" >
-               <div class ="p";>
-     
-               <h style ="font-size:100%;"    text="text-align:left margin-left=20px;" ><b>Safety First</b></h>
-               <p  >Far away,behind the word mountains,far from the countries Vokalia. </p> 
-     
-           </div> 
-         </div> </div>
-        <div class="col-6 col-sm-4">
-               <!-- 2 -->
-            
-                <img src="img/girl.png" width="50" height="50" algin="left" style="float: left; margin-right: 10px;" >
-                <div class ="p";>
-        
-                <h style ="font-size:100%;"    text="text-align:left margin-left=20px;" ><b>Regular Classes</b></h>
-                <p  >Far away,behind the word mountains,far from the countries Vokalia. </p> 
-        
-            </div> 
-          </div> 
-        <br>
-    
-        <!-- Force next columns to break to new line at md breakpoint and up -->
-        <div class="w-100 d-none d-md-block">
-    
-        <div class="col-6 col-sm-4">
-               <!-- 3 --> 
-         <div class="display1">
-          
-        
-            
-            <img src="img/girl.png" width="50" height="50" algin="left" style="float: left; margin-right: 10px;" >
-            <div class ="p";>
-      
-            <h style ="font-size:100%;"    text="text-align:left margin-left=20px;" ><b>Certified Teachers</b></h>
-            <p  >Far away,behind the word mountains,far from the countries Vokalia. </p> 
-          </div>
-        </div> 
-      </div> 
-        </div>
-        <div class="w-100 d-none d-md-block">
-        <div class="col-6 col-sm-4">
-          
-           <!-- 4 --> 
-            <img src="img/girl.png" width="50" height="50" algin="left" style="float: left; margin-right: 10px;" >
-            <div class ="p";>
-      
-            <h style ="font-size:100%;"    text="text-align:left margin-left=20px;" ><b>Sufficiant Classrooms</b></h>
-            <p  >Far away,behind the word mountains,far from the countries Vokalia. </p> 
-          </div>
-        </div> 
-      </div>
-       
-      <div class="w-100 d-none d-md-block">
-    
-      <div class="col-6 col-sm-4">
-             <!-- 3 --> 
-       <div class="display1">
-        
-      
-          
-          <img src="img/girl.png" width="50" height="50" algin="left" style="float: left; margin-right: 10px;" >
-          <div class ="p";>
-    
-          <h style ="font-size:100%;"    text="text-align:left margin-left=20px;" ><b>raghad</b></h>
-          <p  >Far away,behind the word mountains,far from the countries Vokalia. </p> 
-        </div>
-      </div> 
-    </div> 
-      </div>
-      <div class="w-100 d-none d-md-block">
-          <div class="col-6 col-sm-4">
-            
-             <!-- 4 --> 
-              <img src="img/girl.png" width="50" height="50" algin="left" style="float: left; margin-right: 10px;" >
-              <div class ="p";>
-        
-              <h style ="font-size:100%;"    text="text-align:left margin-left=20px;" ><b>Sufficiant Classrooms</b></h>
-              <p>Far away,behind the word mountains,far from the countries Vokalia. </p> 
-            </div>       
-          </div> 
-        </div>
-
-   
 </section>
 
 
 
-<!-- team Section -->
-<section id="team" class="team section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-header text-center pb-5">
-          <h2>Certified Teachers</h2>
-          <p>Separated they live in a small river named Duden flows by their place and supplies it with the neccessary regelialia .</p>
+
+
+
+
+<section  style=" height: 600px; background-image: url('img/download1.jpg');" class="position-relative bg-img" >
+    <div class="container row h-50 position-absolute" style="top:80px; left: 120px;">
+      <div class="position-relative col-md-6  h-100  d-flex align-items-center bg-img" style="background-image: url('img/download (1).jpg')" >
+        <div class="position-absolute col-md-2  h-50 w-100  d-flex align-items-center justify-content-center" >
+          <a href="#"  class="fa-5x text-light" ><i class='fa fa-play-circle '></i></a>      
         </div>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-12 col-md-5 col-lg-3">
-        <div class="card text-center">
-          <div class="card-body">
-            <img src="img/team1.jpg" width="200" height="200" alt="" class="img-fluid rounded-circle">
-            <h3 class="card-title py-2">Bianca Wilson</h3>
-            <h3 class="card-title py-2" style="color: brown; font-size: 15px;" >Teacher</h3>
-
-            <p class="card-text">I am an amitious workaholic , but apart from that , pretty simple person.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-5 col-lg-3">
-        <div class="card text-center">
-          <div class="card-body">
-            <img src="img/team2.jpg" width="200" height="200" alt="" class="img-fluid rounded-circle">
-            <h3 class="card-title py-2">Mitch Parker</h3>
-            <h3 class="card-title py-2" style="color: brown; font-size: 15px;" >English Teacher</h3>
-
-            <p class="card-text">I am an amitious workaholic , but apart from that , pretty simple person.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-5 col-lg-3">
-        <div class="card text-center">
-          <div class="card-body">
-            <img src="img/team3.jpg" width="200" height="200" alt="" class="img-fluid rounded-circle">
-            <h3 class="card-title py-2">Stella Smith</h3>
-            <h3 class="card-title py-2" style="color: brown; font-size: 15px;" >Art Teacher</h3>
-
-            <p class="card-text">I am an amitious workaholic , but apart from that , pretty simple person.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-5 col-lg-3">
-        <div class="card text-center">
-          <div class="card-body">
-            <img src="img/team4.jpg" width="200" height="200" alt="" class="img-fluid rounded-circle">
-            <h3 class="card-title py-2">Monshe Hederson</h3>
-            <h3 class="card-title py-2" style="color: brown; font-size: 15px;" >Science Teacher</h3>
-
-            <p class="card-text">I am an amitious workaholic , but apart from that , pretty simple person.</p>
-          </div>
-        </div>
-      </div>
       
-    </div>
-  </div>
-
-  <!-- Recent Blog section-->
-  <section id="blog" class="blog sction-padding" style="background-color: rgb(215, 255, 242);">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-header text-center pb-5 b">
-            <h2>Recent Blog</h2>
-            <p>Separated they live in a small river named Duden flows by their place and supplies it with the neccessary regelialia .</p>
-          </div>
-        </div>
-  
       </div>
-      <div class="row">
-        <div class="col-12 col-md-12 col-lg-4" >
-          <div class="card text-left bg-white pb-2 " >
-            <div class="card-body text-dark">
-                <div class="img-area mb-4">
-                  <img src="img/blog1.jpg" width="200" height="200" alt="" class="img-fluid">
-                </div>
-                <h3 class="card-title">Skills to develop your child memory</h3>
-                <p class="lead" >Far away,behind the word mountains,far from the countries Vokalia.</p>
-                <buttom class="btn bg warning text-dark" style="background-color: brown ;" >Learn More</buttom>
-            </div>
-          </div>
-        </div>
+      <div class="position-relative col-md-6  h-100 " data-aos="fade-down-left">
+        <h1 class="mb-4 text-light fw-bold">Fox University</h1>
+       
+        <p class="mb-4 text-light fs-4">Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        <p class="mb-4 text-light fs-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+      </div>
 
-        <div class="col-12 col-md-12 col-lg-4" >
-          <div class="card text-left bg-white pb-2 " >
-            <div class="card-body text-dark">
-                <div class="img-area mb-4">
-                  <img src="img/blog2.jpg" width="200" height="200" alt="" class="img-fluid">
-                </div>
-                <h3 class="card-title">Skills to develop your child memory</h3>
-                <p class="lead" >Far away,behind the word mountains,far from the countries Vokalia.</p>
-                <buttom class="btn bg warning text-dark" style="background-color: brown ;" >Learn More</buttom>
-            </div>
-          </div>
-        </div>
+    </div>
 
-        <div class="col-12 col-md-12 col-lg-4" >
-          <div class="card text-left bg-white pb-2 " >
-            <div class="card-body text-dark">
-                <div class="img-area mb-4">
-                  <img src="img/blog3.jpg" width="200" height="200" alt="" class="img-fluid">
-                </div>
-                <h3 class="card-title">Skills to develop your child memory</h3>
-                <p class="lead" >Far away,behind the word mountains,far from the countries Vokalia.</p>
-                <buttom class="btn bg warning text-dark" style="background-color: brown ;" >Learn More</buttom>
-            </div>
-          </div>
-        </div>
+    <div class="container  h-25 position-absolute " style="bottom:40px ;left:120px;" data-aos="fade-down-left">
+      <div class="col-md-3 h-100  ">
+       <div class="h-25"><h1 class="text-light text-center fw-bold">18</h1></div>
+        <div class="text-light  text-center fs-2 mt-3"><p>Certified Teachers</p></div>
+        
+      </div>
 
+      <div  class="col-md-3 h-100 ">
+        <div class="h-25"><h1 class="text-light text-center fw-bold">401</h1></div>
+        <div class="text-light  text-center fs-2 mt-3"><p>Students</p></div>
+      </div>
+
+      <div class="col-md-3 h-100 " >
+        <div class="h-25"><h1 class="text-light text-center fw-bold">30</h1></div>
+        <div class="text-light  text-center fs-2 mt-3"><p>Courses</p></div>
+      </div>
+
+      <div class="col-md-3 h-100 ">
+        <div class="h-25"><h1 class="text-light text-center fw-bold">50</h1></div>
+        <div class="text-light  text-center fs-2 mt-3"><p>Awards Won</p></div>
       </div>
     </div>
   </section>
+ 
+
+
+<section class="position-relative" style="height: 900px;" >
+<div class="row justify-content-center mt-5 h-25" data-aos="fade-down-left">
+<div class="col-md-8 text-center">
+  <h1 class="mb-5 fw-bold">Our Courses</h1>
+  <p class="text-muted fs-3">Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+</div>
+</div>
+
+
+<div class="row m-3 h-25">
+    <div class="col-3">
+      <div class="p-3 bg-img  h-100 h-100" style="background-image: url(img/Capture3.PNG);"></div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 bg-img  h-100 h-100" style="background-image: url(img/Capture2.PNG);"></div>
+    </div>
+    <div class="col-3" >
+      <div class="p-3 bg-img  h-100 h-100" style="background-image: url(img/Capture.PNG);"></div>
+    </div>
+    <div class="col-3">
+      <div class="p-3 bg-img  h-100 h-100" style="background-image: url(img/Capture1.PNG);"></div>
+    </div>
+  </div>
+</div>
+
+<div class="row m-3 h-25" >
+  <div class="col-3" >
+    <div class="p-3  h-100 ">
+      <div class="row" >
+       <span class="text-muted col-4 fw-bolder " ><i class="fa fa-user m-2 icon-orangered" ></i>MR. KHAN</span> 
+       <span class="text-muted col-4  fw-bolder" ><i class="fa fa-table m-2 icon-orangered" ></i>10 SEATS</span> 
+       <span class="text-muted col-4 fw-bolder" ><i class="fa fa-calendar m-2 icon-orangered"></i>4 YEARS</span> 
+      </div>
+      <div class="row mt-4" >
+         <h3 class="fw-bold">Electric Engineering</h3>
+      </div>
+      <div class="row mt-2" >
+        <p class="text-muted  fs-2"> Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
+        </p>
+     </div>
+     <div class="row " >
+      <a  href="#" class="btn btn-style col-4 m-2 fs-3">Apply now</a> 
+    </div>
+    </div>
+  </div>
+
+  <div class="col-3">
+    <div class="p-3  h-100 ">
+      <div class="row" >
+       <span class="text-muted col-4 fw-bolder" ><i class="fa fa-user  m-2 icon-orangered" ></i>MR. KHAN</span> 
+       <span class="text-muted col-4 fw-bolder" ><i class="fa fa-table  m-2 icon-orangered" ></i>10 SEATS</span> 
+       <span class="text-muted col-4 fw-bolder"><i class="fa fa-calendar  m-2 icon-orangered "></i>4 YEARS</span> 
+      </div>
+      <div class="row mt-4" >
+         <h3 class=" fw-bold">Electric Engineering</h3>
+      </div>
+      <div class="row mt-2" >
+        <p class="text-muted  fs-2"> Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
+        </p>
+     </div>
+     <div class="row " >
+      <a  href="#" class="btn btn-style col-4 m-2 fs-3">Apply now</a> 
+    </div>
+    </div>  </div>
+  <div class="col-3" >
+    <div class="p-3  h-100 ">
+      <div class="row" >
+       <span class="text-muted col-4 fw-bolder " ><i class="fa fa-user m-2 icon-orangered" ></i>MR. KHAN</span> 
+       <span class="text-muted col-4 fw-bolder" ><i class="fa fa-table m-2 icon-orangered"></i>10 SEATS</span> 
+       <span class="text-muted col-4 fw-bolder"><i class="fa fa-calendar  m-2 icon-orangered"></i>4 YEARS</span> 
+      </div>
+      <div class="row mt-4" >
+         <h3 class=" fw-bold">Electric Engineering</h3>
+      </div>
+      <div class="row mt-2" >
+        <p class="text-muted  fs-2"> Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
+        </p>
+     </div>
+     <div class="row " >
+      <a  href="#" class="btn btn-style col-4 m-2 fs-3">Apply now</a> 
+    </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="p-3  h-100 ">
+      <div class="row" >
+       <span class="text-muted col-4 fw-bolder" ><i class="fa fa-user m-2 icon-orangered" ></i>MR. KHAN</span> 
+       <span class="text-muted col-4 fw-bolder"><i class="fa fa-table m-2 icon-orangered" ></i>10 SEATS</span> 
+       <span class="text-muted col-4 fw-bolder" ><i class="fa fa-calendar m-2 icon-orangered "></i>4 YEARS</span> 
+      </div>
+      <div class="row mt-4" >
+         <h3 class=" fw-bold">Electric Engineering</h3>
+      </div>
+      <div class="row mt-2" >
+        <p class="text-muted  fs-2"> Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
+        </p>
+     </div>
+     <div class="row " >
+      <a  href="#" class="btn btn-style col-4 m-2 fs-3">Apply now</a> 
+    </div>
+    </div>  </div>
+</div>
+</div>
 </section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>
 
