@@ -46,4 +46,58 @@ body{
     padding: 30px;}
 
 
+.static-size {
+  width: 65px;
+  height: 200px;
+}
+
+.icon-style {
+    font-size: 1px;
+    padding: 7px;
+  }
+
+  .i-style {
+   
+    padding: 10px;
+  }
+  .custom-h3 {
+    font-size: 15px;
+  }
+
+  .h5-style{
+
+    font-size: 13px;
+
+  }
+  
+  .custom-btn {
+    height: 35px;
+    width: 180px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+ 
+  
+  input[type="email"].form-control {
+    height: 35px;
+    width: 180px;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  
+
+
+  .custom-btn {
+    padding-left: 5;
+    padding-right: 10px;
+  }
+
+
+
+
+  
+  
+
 
