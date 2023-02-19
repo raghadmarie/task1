@@ -1,49 +1,163 @@
-
 body{
-
-    overflow-x:hidden;
-    
+  margin: 0 !important;
+  padding:0 !important;
+  overflow-x:hidden;
+   
 }
+.carousel-inner .carousel-caption{
+  top:18%;
+  left:0px;
+  z-index: 10;
+  padding-left: 9%;
+  padding-right: 2%;
+}
+
 .bg-img{
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-position: center center;
-    
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-position: center center;
+  background-position:center center;
+  
+}
+.circle-icon {
+  background: orangered;
+  width: 180px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 25px;
+  margin-left: 20px;
+  vertical-align: middle;
+  color: white;
 }
 .btn.btn-style{
 
-    background: orangered;
-    border: 1px solid orangered;
-    border-radius:40px;
-    color:white;
+  background: orangered;
+  border: 1px solid orangered;
+  border-radius:40px;
+  color:white;
 }
-
 .btn.btn-style:hover{
-    color:orangered;
-    background-color: white;
-  
+  color:orangered;
+  background-color: white;
+
 
 }
+
 .icon-orangered{
     color: orangered;
 }
 .btn-group button {
 
-    color: white; /* White text */
-    font-size:100%;
-    display: table;
-    width: 50 ;
-    margin-right: -30px;
-    padding: 10px;
-    box-sizing:border-box ;
-    border-right: none;
-    
+  color: white; /* White text */
+  font-size:100%;
+  display: table;
+  width: 50 ;
+  margin-right: -30px;
+  padding: 10px;
+  box-sizing:border-box ;
+  border-right: none;
   
-  }
+
+}
   .text{
       margin: 50;
     padding: 30px;}
 
+
+
+.static-size {
+  width: 65px;
+  height: 200px;
+}
+
+.icon-style {
+    font-size: 1px;
+    padding: 7px;
+  }
+
+  .i-style {
+   
+    padding: 10px;
+  }
+  .custom-h3 {
+    font-size: 15px;
+  }
+
+  .h5-style{
+
+    font-size: 13px;
+
+  }
+  
+  .custom-btn {
+    height: 35px;
+    width: 180px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+ 
+  
+  input[type="email"].form-control {
+    height: 35px;
+    width: 180px;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  
+
+
+  .custom-btn {
+    padding-left: 5;
+    padding-right: 10px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+.h-60{
+height: 60%;
+}
+
+.input{
+
+box-shadow:none;
+  border-bottom:1px solid rgba(255, 255, 255, 0.2) !important;
+  border:none;
+   background: inherit;
+   color:white !important;
+   height: 60px;
+   
+   
+}
+select option{
+color:black;
+
+}
+
+::placeholder {
+color: white;
+}
+
+
+.carousel .carousel-indicators li {
+
+background-color:rgb(130, 119, 107)
+}
+.carousel .carousel-indicators li.active {background-color: orangered;}
+
+
+
+
+
+  
 
 
